@@ -47,7 +47,7 @@ document.getElementById("contact-form").addEventListener("submit", e => {
     const email = document.getElementById("c-email").value.trim();
     const message = document.getElementById("c-message").value.trim();
     const text = `Hi, I'm ${name} (${email}). ${message}`;
-    window.open("https://wa.me/919291957294?text=" + encodeURIComponent(text), "_blank");
+    window.open("https://wa.me/919121991853?text=" + encodeURIComponent(text), "_blank");
     document.getElementById("form-status").textContent = "Thanks, " + name + "! Opening WhatsApp to send your message.";
     e.target.reset();
 });
